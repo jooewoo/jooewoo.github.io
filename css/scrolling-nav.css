@@ -3,17 +3,234 @@
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
  */
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+@import url('https://fonts.googleapis.com/css?family=Caveat|Dosis|Indie+Flower|Kalam|Courgette');
 
-header {
-  padding: 154px 0 100px;
+#mainNav:hover {
+  color: rgba(220, 53, 69, 0.75);
 }
 
-@media (min-width: 992px) {
+.navbar {
+  /* background-image: url('../img/photos/background.png'); */
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contact-photo {
+  background-image: url('../img/photos/background.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: calc(100vh - 400px);
+}
+
+.navbar-nav {
+  font-size: 18px;
+}
+
+.navbar-brand:hover {
+  color: rgba(220, 53, 69, 0.75) !important;
+}
+
+.navbar-nav > .active > a {
+  color: rgba(220, 53, 69, 0.75) !important;
+}
+
+.nav-item > a:hover {
+  color: rgba(220, 53, 69, 0.75) !important;
+}
+
+.hello-top {
+  font-family: 'Dosis', sans-serif;
+}
+
+.bg-dark {
+  background-color: #000 !important;
+  font-family: 'Dosis', sans-serif;
+}
+
+.nav-link:hover {
+  color: rgba(220, 53, 69, 0.5);
+}
+
+h1 {
+  color: #fff;
+  font-family: 'Courgette', cursive;
+  font-size: 110px;
+  padding-top: 90px;
+  text-shadow: 4px 4px #000;
+}
+
+.full-stack {
+  font-size: 45px;
+  text-shadow: 2px 2px #f00;
+  font-family: 'Courgette', cursive;
+}
+
+.photo {
+  background-image: url('../img/photos/Self.PNG');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icons-list {
+  text-align: center;
+}
+
+.about-me {
+  width: 70%;
+}
+
+.lead {
+  display: inline-block;
+}
+
+header {
+  background-image: url('../img/photos/spider-man.png');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: calc(100vh - 25px);
+  margin-top: 25px;
+}
+
+.project-1-details {
+  font-size: 20px;
+  padding-top: 5px;
+  padding-left: 15px;
+}
+
+.project-2-details {
+  font-size: 20px;
+  width: 50%;
+  padding-top: 5px;
+}
+
+.project-4-details {
+  font-size: 20px;
+  padding-top: 5px;
+  padding-left: 15px;
+}
+
+.project-1-div {
+  display: flex;
+}
+
+.project-2-div {
+  display: flex;
+  margin-top: 100px;
+}
+
+.project-2 {
+  /* background-image: url('../img/photos/project-2.PNG'); */
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: 1px solid white;
+  border-radius: 15px;
+  height: 400px;
+  width: 560px;
+}
+
+.project-4 {
+  border: 1px solid white;
+  border-radius: 15px;
+  height: 400px;
+  width: 550px;
+}
+
+.project-2-p {
+  padding-right: 15px;
+  font-size: 20px;
+}
+
+.project-ul {
+  list-style: none;
+}
+
+.red {
+  color: rgba(220, 53, 69, 0.9);
+}
+
+.email {
+  margin-top: 7px;
+}
+
+.get-in-touch {
+  margin-bottom: 30px;
+}
+
+.get-in-touch-c {
+  margin-top: 70px;
+  margin-bottom: 30px;
+  padding-left: 45px;
+  padding-top: 30px;
+  text-align: center;
+  text-shadow: 2px 2px #f00;
+}
+
+.contact-form {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  margin-top: 80px;
+}
+
+.contact {
+  background-color: black;
+  border-radius: 35px;
+}
+
+@media (max-width: 992px) {
   header {
-    padding: 156px 0 100px;
+    background-image: url('../img/photos/spider-man.png');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: calc(100vh);
+    margin-top: 25px;
+  }
+
+  h1 {
+    color: #000;
+    font-family: 'Kalam', cursive;
+    font-size: 30px;
+    padding-top: 50px;
+    text-shadow: 3px 3px #f00;
+  }
+}
+
+@media (max-width: 812px) {
+  header {
+    background-image: url('../img/photos/spider-man.png');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: calc(100vh);
+    margin-top: 25px;
+  }
+
+  h1 {
+    color: #000;
+    font-family: 'Kalam', cursive;
+    font-size: 80px;
+    padding-top: 50px;
+    text-shadow: 3px 3px #f00;
   }
 }
 
 section {
-  padding: 150px 0;
+  padding: 80px 0;
 }
