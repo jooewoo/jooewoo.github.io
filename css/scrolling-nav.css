@@ -7,7 +7,7 @@
 @import url('https://fonts.googleapis.com/css?family=Caveat|Dosis|Indie+Flower|Kalam|Courgette');
 
 #mainNav:hover {
-  color: rgba(220, 53, 69, 0.75);
+  color: #7558fa;
 }
 
 .navbar {
@@ -18,7 +18,7 @@
 }
 
 .contact-photo {
-  background-image: url('../img/photos/background-4.jpg');
+  background-image: url('../img/photos/photo-4.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -30,15 +30,15 @@
 }
 
 .navbar-brand:hover {
-  color: rgba(220, 53, 69, 0.75) !important;
+  color: #7558fa !important;
 }
 
 .navbar-nav > .active > a {
-  color: rgba(220, 53, 69, 0.75) !important;
+  color: #7558fa !important;
 }
 
 .nav-item > a:hover {
-  color: rgba(220, 53, 69, 0.75) !important;
+  color: #7558fa !important;
 }
 
 .hello-top {
@@ -64,7 +64,7 @@ h1 {
 
 .full-stack {
   font-size: 45px;
-  text-shadow: 2px 2px #f00;
+  text-shadow: 2px 2px #3a1cc5;
   font-family: 'Courgette', cursive;
 }
 
@@ -98,7 +98,7 @@ h1 {
 }
 
 header {
-  background-image: url('../img/photos/background-1.jpg');
+  background-image: url('../img/photos/photo-1.png');
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -109,7 +109,7 @@ header {
 .project-1-details {
   font-size: 20px;
   padding-top: 5px;
-  padding-left: 15px;
+  padding-left: 30px;
 }
 
 .project-2-details {
@@ -121,7 +121,7 @@ header {
 .project-4-details {
   font-size: 20px;
   padding-top: 5px;
-  padding-left: 15px;
+  padding-left: 30px;
 }
 
 .project-1-div {
@@ -152,7 +152,7 @@ header {
 }
 
 .project-2-p {
-  padding-right: 15px;
+  padding-right: 30px;
   font-size: 20px;
 }
 
@@ -161,7 +161,7 @@ header {
 }
 
 .red {
-  color: rgba(220, 53, 69, 0.9);
+  color: #7558fa;
 }
 
 .email {
