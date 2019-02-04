@@ -6,8 +6,44 @@
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
 @import url('https://fonts.googleapis.com/css?family=Caveat|Dosis|Indie+Flower|Kalam|Courgette');
 
+.fsd {
+  font-size: 1.25em;
+}
+
+.resume-button {
+  background-color: #7558fa;
+  border-color: #7558fa;
+  border-radius: 10px;
+  margin-top: 5px;
+}
+
+.resume-button:hover {
+  background-color: #500075;
+  border-color: #500075;
+}
+
+.resume-a {
+  color: white;
+}
+
+.resume-full {
+  text-align: center;
+}
+
 #mainNav:hover {
   color: #7558fa;
+}
+
+.skills {
+  background-color: #e4e4e4;
+}
+
+.skills-text {
+  font-size: 3em;
+  text-decoration: underline;
+  text-align: left;
+  padding-left: 6.5%;
+  padding-bottom: 2%;
 }
 
 .navbar {
@@ -18,11 +54,12 @@
 }
 
 .contact-photo {
-  background-image: url('../img/photos/photo-4.jpg');
+  /* background-image: url('../img/photos/photo-4.jpg'); */
+  background-color: #1d2c45 !important;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: calc(100vh - 400px);
+  height: calc(100vh - 550px);
 }
 
 .navbar-nav {
@@ -58,7 +95,7 @@ h1 {
   color: #fff;
   font-family: 'Courgette', cursive;
   font-size: 110px;
-  padding-top: 90px;
+  padding-top: 400px;
   text-shadow: 4px 4px #000;
 }
 
@@ -102,8 +139,13 @@ header {
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
-  height: calc(100vh - 25px);
-  margin-top: 25px;
+  height: 100vh;
+}
+
+.projects-header {
+  font-size: 3em;
+  text-decoration: underline;
+  padding-bottom: 30px;
 }
 
 .project-1-details {
@@ -162,14 +204,6 @@ header {
 
 .red {
   color: #7558fa;
-}
-
-.email {
-  margin-top: 7px;
-}
-
-.get-in-touch {
-  margin-bottom: 30px;
 }
 
 .contact-form {

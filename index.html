@@ -16,6 +16,7 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <!-- Custom styles for this template -->
     <link href="css/scrolling-nav.css" rel="stylesheet">
+    <script src="assets/app.js" type="text/javascript" charset="utf-8" defer></script>
 
   </head>
 
@@ -26,23 +27,23 @@
       <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top" id="mainNav">
 
         <!-- <img src="./img/photos/spider-man-logo.jpg" height="50" width="50"> -->
-        <a class="navbar-brand js-scroll-trigger hello-top" href="#page-top" onMouseOver="this.style.color='#3a1cc5'" onMouseOut="this.style.color='rgba(255, 255, 255, 1)'" >Joseph Woo</a>
+        <a class="navbar-brand js-scroll-trigger hello-top" href="#page-top" onMouseOver="this.style.color='#3a1cc5'" onMouseOut="this.style.color='rgba(255, 255, 255, 1)'" >Joseph Woo  |  Full Stack Developer</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about" onMouseOver="this.style.color='#3a1cc5'" onMouseOut="this.style.color='rgba(255, 255, 255, 1)'">About</a>
+              <a class="nav-link js-scroll-trigger" href="#about" >About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#skills" onMouseOver="this.style.color='#3a1cc5'" onMouseOut="this.style.color='rgba(255, 255, 255, 1)'">Skills</a>
+              <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#projects" onMouseOver="this.style.color='#3a1cc5'" onMouseOut="this.style.color='rgba(255, 255, 255, 1)'">Projects</a>
+              <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="https://drive.google.com/open?id=1IL2NQAirQZioiluQU7K9fYiMK-JXak9C" target="_blank" onMouseOver="this.style.color='#3a1cc5'" onMouseOut="this.style.color='rgba(255, 255, 255, 1)'">Resume</a>
+              <button class="resume-button"><a href="https://drive.google.com/open?id=1IL2NQAirQZioiluQU7K9fYiMK-JXak9C" class="resume-a" target="_blank">Resume</a></button>
             </li>
           </ul>
       </div>
@@ -53,6 +54,9 @@
       <div class="container text-center">
         <h1>Joseph Woo</h1>
         <p class="lead full-stack">Full Stack Developer</p>
+      </div>
+      <div class="resume-full">
+        <button><a href="https://drive.google.com/open?id=1IL2NQAirQZioiluQU7K9fYiMK-JXak9C" target="_blank">Resume</a></button>
       </div>
       <div id="lead-down">
         <span>
@@ -68,16 +72,17 @@
           </div>
           <div class="about-me">
             <h2>Hello, I am Joe!</h2>
-            <p class="lead"> I'm a full stack developer, and a former Materials engineer based in Boston, MA. My background as an engineer has given me the tool set of critical thinking and problem-solving skills. My goal is to leverage my engineering background to find the best solution to challenges, as I expand my software engineering skills.</p>
+            <p class="lead">I'm a full stack developer and former material science engineer based in Boston, MA. My background as an engineer has provided me with the toolset of critical thinking and problem-solving. My goal is to leverage this experience to find the best solution to challenges as I expand my software engineering skills.</p>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="skills" class="bg-light">
+    <section id="skills" class="skills">
       <div class="container icons-list">
 
         <div class="col-xl-12 mx">
+          <h2 class="skills-text">Skills</h2>
 
           <div class="mySlides col-xl-12">
             <span style="font-size: 128px; color: #f0db4f;" class="first">
@@ -150,7 +155,7 @@ style=" fill:#000000;"><g id="surface1"><path style=" fill:#0277BD;" d="M 24.046
       <div class="container">
         <div class="row">
           <div class="col-lg-12 mx-auto">
-
+            <h2 class="projects-header">Projects</h2>
             <div class="project-1-div">
 
               <div>
@@ -160,7 +165,7 @@ style=" fill:#000000;"><g id="surface1"><path style=" fill:#0277BD;" d="M 24.046
               <div class="project-4-details">
                 <h2>Fortune Empire</h2>
                 <p class="project-2-p">
-                  Full-stack capstone project utilizing React, JavaScript, Express, and MongoDB. App allows user to track bills, transactions, and spending habits.
+                  App allows user to track bills, transactions, and spending habits. Full-stack project utilizing React, JavaScript, Express, and MongoDB.
                 </p>
                 <ul class="project-ul">
                   <li>Client: <a class="red" href="https://jooewoo.github.io/fortune-empire-front-end-client/#/">Fortune Empire</a></li>
@@ -175,7 +180,7 @@ style=" fill:#000000;"><g id="surface1"><path style=" fill:#0277BD;" d="M 24.046
               <div class="project-2-details">
                 <h2>Fantasy Kings</h2>
                 <p class="project-2-p">
-                  Built a single page application, utilizing JavaScript, Ruby, Ruby on Rails, and Handlebars. Data collected via web scraping and seeded into a PostgreSQL database. App allows users to keep track of player’s stats from the 2017-2018 NBA season, and add players to a favorites list.
+                  App allows users to keep track of player’s stats from the 2017-2018 NBA season, and add players to a favorites list. Built a single page application, utilizing JavaScript, Ruby, Ruby on Rails, and Handlebars. Data collected via web scraping and seeded into a PostgreSQL database.
                 </p>
                 <ul class="project-ul">
                   <li>Client: <a class="red" href="https://jooewoo.github.io/full-stack-front-end-client/">Fantasy Kings</a></li>
@@ -197,7 +202,7 @@ style=" fill:#000000;"><g id="surface1"><path style=" fill:#0277BD;" d="M 24.046
               <div class="project-1-details">
                 <h2>Kumo Cloud Service</h2>
                 <p class="project-1-p">
-                  Team built single page application project, utilizing JavaScript, Node, Express, and MongoDB. App allows user to upload files to AWS S3, where file links are saved to the database.
+                   App allows user to upload files to AWS S3, where file links are saved to the database. Team built single page application project, utilizing JavaScript, Node, Express, and MongoDB.
                 </p>
                 <ul class="project-ul">
                   <li>Client: <a class="red" href="https://jooewoo.github.io/kumo-front-end-client/">Kumo Cloud Service</a></li>
@@ -212,7 +217,7 @@ style=" fill:#000000;"><g id="surface1"><path style=" fill:#0277BD;" d="M 24.046
               <div class="project-2-details">
                 <h2>Tic Tac Toe</h2>
                 <p class="project-2-p">
-                  Built a front-end web game, utilizing HTML, CSS, Sass, JavaScript, AJAX, jQuery, and custom game logic. Also, it requires user authentication, and utilizes every CRUD actions.
+                  Play a simple game of Tic Tac Toe! Built a front-end web game, utilizing HTML, CSS, Sass, JavaScript, AJAX, jQuery, and custom game logic. Also, it requires user authentication, and utilizes every CRUD actions.
                 </p>
                 <ul class="project-ul">
                   <li>Client: <a class="red" href="https://jooewoo.github.io/tic-tac-toe-client/">Tic Tac Toe</a></li>
@@ -230,10 +235,9 @@ style=" fill:#000000;"><g id="surface1"><path style=" fill:#0277BD;" d="M 24.046
     </section>
 
     <!-- Footer -->
-    <footer class="py-5 bg-dark text-white contact-photo" id="contact" >
+    <footer class="py-5 text-white contact-photo" id="contact" >
       <div class="container">
         <div id="contact-form" >
-          <h2 class="get-in-touch">Get In Touch</h2>
 
             <ul class="contact-form">
               <li class="contact">
@@ -248,12 +252,12 @@ style=" fill:#000000;"><g id="surface1"><path style=" fill:#0277BD;" d="M 24.046
               </li>
               <li class="contact-mail">
                 <a href="mailto:jooewoo@gmail.com" class="email" target="_blank">
-                  <img src="./img/photos/email.png" class="email" height="50" width="75" onMouseOver="this.style.color='rgba(220, 53, 69, 0.75)'">
+                  <img src="./img/photos/email-icon.svg" class="email" height="70" width="90" onMouseOver="this.style.color='rgba(220, 53, 69, 0.75)'">
                 </a>
               </li>
               <li class="contact-resume">
                 <a href="https://drive.google.com/open?id=1IL2NQAirQZioiluQU7K9fYiMK-JXak9C" target="_blank" class="resume">
-                  <img src="./img/photos/pdf.png" class="resume" height="65" width="65">
+                  <img src="./img/photos/resume-icon.svg" class="resume" height="65" width="65">
                 </a>
               </li>
             </ul>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="10" cy="10" r="10"></circle>
+        <rect id="Rectangle" fill="#000000" fill-rule="nonzero" x="3" y="5.5" width="14" height="9" rx="1"></rect>
+        <path d="M3.92526833,5.024895 L16.0747851,5.024895 C16.6270698,5.024895 17.0747851,5.47261026 17.0747851,6.024895 C17.0747851,6.33427557 16.9315853,6.6262349 16.6869484,6.81562634 L10.6121658,11.5185628 C10.2517482,11.7975886 9.74825253,11.7975876 9.38783605,11.5185604 L3.31310193,6.81562397 C3.11176654,6.65975418 3.00739923,6.39617786 3,6.024895 C3.02016926,5.70658705 3.06501571,5.50253158 3.13453936,5.41272861 C3.32393092,5.1680935 3.61588912,5.024895 3.92526833,5.024895 Z" id="Path" fill="#FFFFFF" fill-rule="nonzero"></path>
+        <polygon id="Path" fill="#000000" fill-rule="nonzero" points="3.92526833 6.024895 10.0000024 10.7278315 16.0747851 6.024895"></polygon>
+    </g>
+</svg>
